@@ -1,0 +1,39 @@
+.sec-about{
+  position: relative;
+  text-align: center;
+  margin: 70px;
+}
+
+.tagline {
+  color: #888;
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: .8;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+.sec-title {
+  color: #1e2528;
+  font-size: 42px;
+  margin-bottom: 32px;
+}
+.sec-txt{
+  color: #888;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.mat-flat-button{
+  background-color: #ff817e;
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0.8;
+  text-transform: uppercase;
+  min-width: 170px;
+  padding: 20px 15px;
+}

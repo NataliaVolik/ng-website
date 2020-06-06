@@ -10,6 +10,11 @@ import { ServiceComponent } from './service/service.component';
 import { ContactComponent } from './contact/contact.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import {MatToolbarModule} from "@angular/material/toolbar";
+import { ErrorComponent } from './error/error.component';
+import {MatButtonModule} from "@angular/material/button";
+import {MatCardModule} from "@angular/material/card";
+
+
 
 @NgModule({
   declarations: [
@@ -18,13 +23,17 @@ import {MatToolbarModule} from "@angular/material/toolbar";
     AboutComponent,
     ServiceComponent,
     ContactComponent,
-    NavbarComponent
+    NavbarComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatButtonModule,
+    MatCardModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
