@@ -13,6 +13,7 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import { ErrorComponent } from './error/error.component';
 import {MatButtonModule} from "@angular/material/button";
 import {MatCardModule} from "@angular/material/card";
+import { AboutReadMoreComponent } from './about-read-more/about-read-more.component';
 
 
 
@@ -24,7 +25,8 @@ import {MatCardModule} from "@angular/material/card";
     ServiceComponent,
     ContactComponent,
     NavbarComponent,
-    ErrorComponent
+    ErrorComponent,
+    AboutReadMoreComponent
   ],
   imports: [
     BrowserModule,

@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-
+  // show: boolean = true;
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  // hideContent(){
+  //   this.show = !this.show;
+  //   console.log(this.show);
+  // }
 }

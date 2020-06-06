@@ -10,6 +10,8 @@
         in the ears, the sky gets darker and darker
     </p>
 
-    <button mat-flat-button color="warn">read more</button>
+    <router-outlet></router-outlet>
+
+    <button mat-flat-button color="warn" [routerLink]="['/about', 'about-read-more']">read more</button>
 </div>
 
