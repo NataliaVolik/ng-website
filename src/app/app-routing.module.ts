@@ -31,7 +31,7 @@ const routes: Routes = [
   },
   {
     path: 'error',
-    component: ErrorComponent
+    loadChildren: () => import('./error/error.module').then(m => m.ErrorModule)
   },
   {
     path: '**',
