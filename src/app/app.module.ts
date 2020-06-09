@@ -5,14 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
-import { ServiceComponent } from './service/service.component';
 import { ContactComponent } from './contact/contact.component';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import { ErrorComponent } from './error/error.component';
 import {MatButtonModule} from "@angular/material/button";
 import {MatCardModule} from "@angular/material/card";
-import { AboutReadMoreComponent } from './about-read-more/about-read-more.component';
 import {NavbarModule} from "./navbar/navbar.module";
+
 
 
 
@@ -21,10 +20,8 @@ import {NavbarModule} from "./navbar/navbar.module";
   declarations: [
     AppComponent,
     HomeComponent,
-    ServiceComponent,
     ContactComponent,
     ErrorComponent,
-    AboutReadMoreComponent,
 
 
   ],
@@ -35,7 +32,8 @@ import {NavbarModule} from "./navbar/navbar.module";
     MatToolbarModule,
     MatButtonModule,
     MatCardModule,
-    NavbarModule
+    NavbarModule,
+
 
   ],
   providers: [],
