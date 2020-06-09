@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import { ErrorComponent } from './error/error.component';
 import {MatButtonModule} from "@angular/material/button";
@@ -20,7 +19,6 @@ import {NavbarModule} from "./navbar/navbar.module";
   declarations: [
     AppComponent,
     HomeComponent,
-    ContactComponent,
     ErrorComponent,
 
 
