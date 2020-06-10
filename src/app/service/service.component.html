@@ -16,42 +16,10 @@
             </p>
         </mat-card-content>
         <mat-card-actions>
-            <button mat-flat-button color="warn" [routerLink]="['/service', service.id]">read more</button>
+<!--            <button mat-flat-button color="warn" [routerLink]="['/service', service.id]">read more</button>-->
+            <button mat-flat-button color="warn" (click)="openDetail(service.id)">read more</button>
         </mat-card-actions>
     </mat-card>
 
-
-
-<!--    <mat-card class="example-card">-->
-<!--        <mat-card-header></mat-card-header>-->
-<!--        <img mat-card-image src="assets/img/1.jpg" alt="Photo of a Shiba Inu">-->
-<!--        <mat-card-content>-->
-<!--            <mat-card-title>Beauty Care</mat-card-title>-->
-<!--            <p>-->
-<!--                Living winged said you darkness you're divide gathered and bring one-->
-<!--                seasons face great dr Waters firmament place which.-->
-<!--            </p>-->
-<!--        </mat-card-content>-->
-<!--        <mat-card-actions>-->
-<!--            <button mat-flat-button color="warn">read more</button>-->
-<!--        </mat-card-actions>-->
-<!--    </mat-card>-->
-
-
-
-<!--    <mat-card class="example-card">-->
-<!--        <mat-card-header></mat-card-header>-->
-<!--        <img mat-card-image src="assets/img/1.jpg" alt="Photo of a Shiba Inu">-->
-<!--        <mat-card-content>-->
-<!--            <mat-card-title>Executive Reflexology</mat-card-title>-->
-<!--            <p>-->
-<!--                Living winged said you darkness you're divide gathered and bring one-->
-<!--                seasons face great dr Waters firmament place which.-->
-<!--            </p>-->
-<!--        </mat-card-content>-->
-<!--        <mat-card-actions>-->
-<!--            <button mat-flat-button color="warn">read more</button>-->
-<!--        </mat-card-actions>-->
-<!--    </mat-card>-->
 </div>
 

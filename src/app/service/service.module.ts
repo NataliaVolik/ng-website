@@ -10,11 +10,11 @@ const routes : Routes = [
     {
       path: '',
       component: ServiceComponent,
-      children: [{
-        path: ':id',
-        component: CategoryComponent
-      }]
-    }
+    },
+  {
+    path: ':id',
+    component: CategoryComponent
+  }
   ]
 
 @NgModule({
