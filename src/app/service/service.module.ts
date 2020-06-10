@@ -4,17 +4,23 @@ import {ServiceComponent} from "./service.component";
 import {RouterModule, Routes} from "@angular/router";
 import {MatCardModule} from "@angular/material/card";
 import {MatButtonModule} from "@angular/material/button";
+import {CategoryComponent} from "./category/category.component";
 
 const routes : Routes = [
     {
       path: '',
-      component: ServiceComponent
+      component: ServiceComponent,
+      children: [{
+        path: ':id',
+        component: CategoryComponent
+      }]
     }
   ]
 
 @NgModule({
   declarations: [
-    ServiceComponent
+    ServiceComponent,
+    CategoryComponent
   ],
   imports: [
     CommonModule,
@@ -23,7 +29,8 @@ const routes : Routes = [
     MatButtonModule
   ],
   exports: [
-    ServiceComponent
+    ServiceComponent,
+    CategoryComponent
   ]
 })
 export class ServiceModule { }

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import {AboutComponent} from "./about.component";
 import {Routes, RouterModule} from "@angular/router";
 import {AboutReadMoreComponent} from "./about-read-more/about-read-more.component";
+import {MatButtonModule} from "@angular/material/button";
 
 const routes : Routes = [
   // {
@@ -27,7 +28,8 @@ const routes : Routes = [
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    MatButtonModule
   ],
   exports: [
       AboutComponent,

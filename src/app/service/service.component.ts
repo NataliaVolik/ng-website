@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {CategoryService} from "../category.service";
 
 @Component({
   selector: 'app-service',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServiceComponent implements OnInit {
 
-  constructor() { }
+  constructor(public categoryService : CategoryService) { }
 
   ngOnInit(): void {
   }
