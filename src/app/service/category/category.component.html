@@ -1,3 +1,9 @@
-<h3>{{category.title}}</h3>
+<div class="content">
+  <h3>{{category.title}}</h3>
+  <p>{{category.text}}</p>
+  <img [src]="category.img" [alt]="category.title">
+</div>
 
-<img [src]="category.img" [alt]="category.title">
+<button mat-flat-button color="warn" class="btn" [routerLink]="['/service']">Back</button>
+
+

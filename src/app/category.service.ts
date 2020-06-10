@@ -23,13 +23,13 @@ export class CategoryService {
       title: 'Beauty Care',
       text: 'Living winged said you darkness you are divide gathered and bring one seasons face great dr Waters firmament place which.',
       id: 2,
-      img: 'assets/img/1.jpg'
+      img: 'assets/img/2.jpg'
     },
     {
       title: 'Executive Reflexology',
       text: 'Living winged said you darkness you are divide gathered and bring one seasons face great dr Waters firmament place which.',
       id: 3,
-      img: 'assets/img/1.jpg'
+      img: 'assets/img/3.jpg'
     }
   ];
 
