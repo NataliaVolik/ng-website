@@ -26,17 +26,55 @@
      <div class="form-control">
        <label>Name</label>
        <input type="text" placeholder="Name" formControlName="name">
-       <div class="validation"></div>
+       <div
+         *ngIf="form.get('name').invalid && form.get('name').touched"
+         class="validation"
+       >
+         <small *ngIf="form.get('name').errors.required">
+           Name field cannot be empty
+         </small>
+         <small *ngIf="form.get('name').errors.minlength">
+           Must be at least {{form.get('name').errors.minlength.requiredLength}}
+           Now the number of characters {{form.get('name').errors.minlength.actualLength}}
+         </small>
+         <small *ngIf="form.get('name').errors.maxlength">
+           Must be at least {{form.get('name').errors.maxlength.requiredLength}}
+           Now the number of characters {{form.get('name').errors.maxlength.actualLength}}
+         </small>
+       </div>
      </div>
      <div class="form-control">
        <label>Email</label>
        <input type="text" placeholder="Email" formControlName="email">
-       <div class="validation"></div>
+       <div
+         *ngIf="form.get('email').invalid && form.get('email').touched"
+         class="validation"
+       >
+         <small *ngIf="form.get('email').errors.email">
+           Please enter a valid email
+         </small>
+
+         <small *ngIf="form.get('email').errors.required">
+           Email field cannot be empty
+         </small>
+
+       </div>
      </div>
      <div class="form-control">
        <label>Write comment</label>
        <input type="text" placeholder="Write comment" formControlName="text">
-       <div class="validation"></div>
+       <div
+         *ngIf="form.get('text').invalid && form.get('text').touched"
+         class="validation"
+       >
+         <small *ngIf="form.get('text').errors.required">
+           Write comment field cannot be empty
+         </small>
+         <small *ngIf="form.get('text').errors.maxlength">
+           Must be at least {{form.get('text').errors.maxlength.requiredLength}}
+           Now the number of characters {{form.get('text').errors.maxlength.actualLength}}
+         </small>
+       </div>
      </div>
      <button mat-flat-button type="submit" [disabled]="form.invalid">Submit now</button>
    </form>
