@@ -5,6 +5,7 @@ import { RouterModule, Routes } from "@angular/router";
 import { MatButtonModule } from "@angular/material/button";
 import { ReserveComponent } from './reserve/reserve.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import {MatCheckboxModule} from "@angular/material/checkbox";
 
 const routes: Routes = [
   {
@@ -26,7 +27,8 @@ const routes: Routes = [
     CommonModule,
     RouterModule.forChild(routes),
     MatButtonModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatCheckboxModule
   ],
   exports: [
     HomeComponent

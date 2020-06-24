@@ -21,8 +21,19 @@
 .address{
   width: 30%;
 }
-.service{
+.service-one{
   width: 30%;
+  padding: 0 30px;
+}
+.service-two{
+  width: 40%;
+  padding: 0 30px;
+}
+.service-one mat-checkbox{
+  display: block;
+}
+.service-two mat-checkbox{
+  display: block;
 }
 .form-control select {
   border: 1px solid #e3e6ea;
@@ -49,4 +60,7 @@
   text-transform: uppercase;
   min-width: 115px;
   padding: 13px 13px;
+}
+.mt-15{
+  margin-top: 15px;
 }
