@@ -1,10 +1,19 @@
 .content{
   text-align: center;
+  padding: 50px 0;
 }
 .btn{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: #ff817e;
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0.8;
+  text-transform: uppercase;
+  min-width: 170px;
+  padding: 15px;
+  margin: 30px;
 }
 h3{
   font-weight: 600;

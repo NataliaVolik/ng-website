@@ -1,5 +1,5 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
-import {Category, CategoryService} from "../../category.service";
+import {Category, CategoryService} from "../../services/category.service";
 import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
