@@ -25,20 +25,20 @@
    <form class="card" [formGroup]="form" (ngSubmit)="submit()">
      <div class="form-control">
        <label>Name</label>
-       <input type="text" placeholder="Name">
+       <input type="text" placeholder="Name" formControlName="name">
        <div class="validation"></div>
      </div>
      <div class="form-control">
        <label>Email</label>
-       <input type="text" placeholder="Email">
+       <input type="text" placeholder="Email" formControlName="email">
        <div class="validation"></div>
      </div>
      <div class="form-control">
        <label>Write comment</label>
-       <input type="text" placeholder="Write comment">
+       <input type="text" placeholder="Write comment" formControlName="text">
        <div class="validation"></div>
      </div>
-     <button mat-flat-button type="submit">Submit now</button>
+     <button mat-flat-button type="submit" [disabled]="form.invalid">Submit now</button>
    </form>
 </div>
 

@@ -50,3 +50,12 @@
   min-width: 170px;
   padding: 20px 15px;
 }
+
+input{
+  &.ng-invalid.ng-touched{
+    border: 1px solid #ff817e;
+  }
+  &.ng-valid.ng-touched{
+    border: 1px solid #90EE90;
+  }
+}
