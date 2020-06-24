@@ -1,14 +1,45 @@
-<div class="sec-cont">
+<div class="wrapper">
     <img src="assets/img/china-rose.png" alt="flower-2">
-    <h3 class="sec-title">Get In Touch</h3>
+    <h3 class="title">Get In Touch</h3>
     <p>
-        To doesn't his appear replenish together called he of mad place won't wherein
-        blessed second every wherein were meat kind wherein and martcin
+      To doesn't his appear replenish together called he of mad place won't wherein
+      blessed second every wherein were meat kind wherein and martcin
     </p>
-    <p>848 E 28th ST, BROOKLYN</p>
-    <p> NEW YORK, USa</p>
-    <p>example@leospa.com</p>
-    <p>tel:+02 365 2365 3265 (02)</p>
+</div>
+<div class="container">
+  <div class="address">
+    <span>
+      <mat-icon aria-hidden="false" aria-label="Example home icon">room</mat-icon>
+      848 E 28th ST, BROOKLYN
+      NEW YORK, USa
+    </span>
+    <span>
+      <mat-icon aria-hidden="false" aria-label="Example home icon">email</mat-icon>
+      example@leospa.com
+    </span>
+    <span>
+      <mat-icon aria-hidden="false" aria-label="Example home icon">phone_android</mat-icon>
+      tel:+02 365 2365 3265 (02)
+    </span>
+  </div>
+   <form class="card" [formGroup]="form" (ngSubmit)="submit()">
+     <div class="form-control">
+       <label>Name</label>
+       <input type="text" placeholder="Name">
+       <div class="validation"></div>
+     </div>
+     <div class="form-control">
+       <label>Email</label>
+       <input type="text" placeholder="Email">
+       <div class="validation"></div>
+     </div>
+     <div class="form-control">
+       <label>Write comment</label>
+       <input type="text" placeholder="Write comment">
+       <div class="validation"></div>
+     </div>
+     <button mat-flat-button type="submit">Submit now</button>
+   </form>
 </div>
 
 

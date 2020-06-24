@@ -1,13 +1,52 @@
-.sec-cont{
+.wrapper{
   text-align: center;
   margin-top: 30px;
 }
-.sec-title {
+.title {
   color: #1e2528;
   font-size: 42px;
   margin-bottom: 32px;
 }
-p {
+.container{
+  display: flex;
+  flex-direction: row;
+  max-width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.address{
+  width: 50%;
+}
+.mat-icon{
+  padding: 5px;
+}
+.card{
+  width: 50%;
+}
+.form-control input{
+  border: 1px solid #e3e6ea;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  width: 90%;
+}
+.address span{
   margin-top: 20px;
   color: #888;
+  display: block;
+
+}
+.mat-flat-button{
+  background-color: #ff817e;
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0.8;
+  text-transform: uppercase;
+  min-width: 170px;
+  padding: 20px 15px;
 }

@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "ng-website"
+  "defaultProject": "ng-website",
+  "cli": {
+    "analytics": false
+  }
 }
