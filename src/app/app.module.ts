@@ -8,6 +8,7 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatButtonModule} from "@angular/material/button";
 import {MatCardModule} from "@angular/material/card";
 import {NavbarModule} from "./navbar/navbar.module";
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -16,6 +17,7 @@ import {NavbarModule} from "./navbar/navbar.module";
 @NgModule({
   declarations: [
     AppComponent,
+    FooterComponent,
 
 
 

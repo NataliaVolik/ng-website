@@ -19,14 +19,15 @@
   flex-direction: row;
 }
 .address{
-  width: 30%;
+  width: 33%;
+  padding: 0 30px;
 }
 .service-one{
-  width: 30%;
+  width: 33%;
   padding: 0 30px;
 }
 .service-two{
-  width: 40%;
+  width: 34%;
   padding: 0 30px;
 }
 .service-one mat-checkbox{
@@ -63,4 +64,8 @@
 }
 .mt-15{
   margin-top: 15px;
+}
+
+*:focus {
+  outline: none;
 }

@@ -1,6 +1,5 @@
 .wrapper{
   text-align: center;
-  margin-top: 30px;
   padding: 50px 0;
 }
 .title {
@@ -33,12 +32,23 @@
   margin-bottom: 25px;
   width: 90%;
 }
-.address span{
-  margin-top: 20px;
-  color: #888;
-  display: block;
-
+.room{
+  color: #888888;
+  padding: 10px;
 }
+.room span, .email span, .tel span{
+  position: relative;
+  top: -6px;
+}
+.email{
+  color: #888888;
+  padding: 10px;
+}
+.tel{
+  color: #888888;
+  padding: 10px;
+}
+
 .mat-flat-button{
   background-color: #ff817e;
   border-radius: 50px;
@@ -63,4 +73,12 @@ input{
 
 .validation{
   color: #ff817e;
+}
+
+.form-control .write-comment{
+  padding: 35px 20px;
+}
+
+*:focus {
+  outline: none;
 }

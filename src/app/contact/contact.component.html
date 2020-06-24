@@ -7,23 +7,29 @@
 </div>
 <div class="container">
   <div class="address">
-    <span>
+    <div class="room">
       <mat-icon aria-hidden="false" aria-label="Example home icon">room</mat-icon>
+      <span>
       848 E 28th ST, BROOKLYN
       NEW YORK, USa
-    </span>
-    <span>
+      </span>
+    </div>
+    <div class="email">
       <mat-icon aria-hidden="false" aria-label="Example home icon">email</mat-icon>
-      example@leospa.com
-    </span>
-    <span>
+      <span>
+        example@leospa.com
+      </span>
+    </div>
+    <div class="tel">
       <mat-icon aria-hidden="false" aria-label="Example home icon">phone_android</mat-icon>
-      tel:+02 365 2365 3265 (02)
-    </span>
+      <span>
+         tel:+02 365 2365 3265 (02)
+      </span>
+    </div>
   </div>
    <form class="card" [formGroup]="form" (ngSubmit)="submit()">
      <div class="form-control">
-       <label>Name</label>
+<!--       <label>Name</label>-->
        <input type="text" placeholder="Name" formControlName="name">
        <div
          *ngIf="form.get('name').invalid && form.get('name').touched"
@@ -43,7 +49,7 @@
        </div>
      </div>
      <div class="form-control">
-       <label>Email</label>
+<!--       <label>Email</label>-->
        <input type="text" placeholder="Email" formControlName="email">
        <div
          *ngIf="form.get('email').invalid && form.get('email').touched"
@@ -60,8 +66,8 @@
        </div>
      </div>
      <div class="form-control">
-       <label>Write comment</label>
-       <input type="text" placeholder="Write comment" formControlName="text">
+<!--       <label>Write comment</label>-->
+       <input type="text" placeholder="Write comment" formControlName="text" class="write-comment">
        <div
          *ngIf="form.get('text').invalid && form.get('text').touched"
          class="validation"
