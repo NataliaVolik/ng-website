@@ -8,12 +8,12 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Screenshots
 
-<a href="src/assets/img/screenshots/home.png"><img src="src/assets/img/screenshots/home.png" width="280" ></a>
-<a href="src/assets/img/screenshots/reserve.png"><img src="src/assets/img/screenshots/reserve.png" width="280" ></a>
-<a href="src/assets/img/screenshots/about_1.png"><img src="src/assets/img/screenshots/about_1.png" width="280" ></a>
-<a href="src/assets/img/screenshots/about_2.png"><img src="src/assets/img/screenshots/about_2.png" width="280" ></a>
-<a href="src/assets/img/screenshots/service.png"><img src="src/assets/img/screenshots/service.png" width="280" ></a>
-<a href="src/assets/img/screenshots/category.png"><img src="src/assets/img/screenshots/category.png" width="280" ></a>
-<a href="src/assets/img/screenshots/contact.png"><img src="src/assets/img/screenshots/contact.png" width="280" ></a>
-<a href="src/assets/img/screenshots/contact_1.png"><img src="src/assets/img/screenshots/contact_1.png" width="280" ></a>
-<a href="src/assets/img/screenshots/contact_2.png"><img src="src/assets/img/screenshots/contact_2.png" width="280" ></a>
+<a href="src/assets/screenshots/home.png"><img src="src/assets/screenshots/home.png" width="280" ></a>
+<a href="src/assets/screenshots/reserve.png"><img src="src/assets/screenshots/reserve.png" width="280" ></a>
+<a href="src/assets/screenshots/about_1.png"><img src="src/assets/screenshots/about_1.png" width="280" ></a>
+<a href="src/assets/screenshots/about_2.png"><img src="src/assets/screenshots/about_2.png" width="280" ></a>
+<a href="src/assets/screenshots/service.png"><img src="src/assets/screenshots/service.png" width="280" ></a>
+<a href="src/assets/screenshots/category.png"><img src="src/assets/screenshots/category.png" width="280" ></a>
+<a href="src/assets/screenshots/contact.png"><img src="src/assets/screenshots/contact.png" width="280" ></a>
+<a href="src/assets/screenshots/contact_1.png"><img src="src/assets/screenshots/contact_1.png" width="280" ></a>
+<a href="src/assets/screenshots/contact_2.png"><img src="src/assets/screenshots/contact_2.png" width="280" ></a>
